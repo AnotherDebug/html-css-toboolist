@@ -9,6 +9,14 @@ body {
     background-color: #F6F8F9;
 }
 
+.container {
+    background-color: red;
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+
 /* *HEADER */
 /* Site header */
 
@@ -21,4 +29,33 @@ header {
 header .logo,h1{
     display: inline-block;
     vertical-align: middle;
+}
+
+/* *MAIN */
+/* Site body */
+
+/* Task + Section */
+
+main>section .buttons {
+    padding: 15px 50px 10px;
+}
+
+.buttons{
+    background-color: yellow;
+}
+
+.buttons input {
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    color: lightgray;
+}
+
+#button-blue {
+    background-color: #45ABE9;
+    color: white;
+}
+
+#button-white {
+    background-color: white;
 }
