@@ -17,7 +17,7 @@
     <!-- Site header -->
     <header>
         <div class="logo">
-            <img src="assets/img/logo.png" alt="">
+            <img src="assets/img/logo.png" alt="logo">
         </div>
         <h1>Toboolist</h1>
     </header>
@@ -28,7 +28,7 @@
     <main class="container">
 
         <!-- Task + Section -->
-        <section class="box-button">
+        <section>
             <div>
                 <input id="button-blue" type="button" value="Add Task">
                 <input id="button-white" type="button" value="Add Section">
@@ -37,31 +37,31 @@
         </section>
 
         <!-- List -->
-        <section class="box-list">
+        <section>
             <ul class="list">
                 <li>
-                    <strong>New task</strong>
-                    <ul class="list">
-                        <li>Quarterly Newsletter <span class="label blue">Editorial</span></li>
-                    </ul>
+                    <strong><span class="arrow-down">&dArr;</span>New task</strong>
+                    <ol class="list">
+                        <li><span></span>Quarterly Newsletter <span class="label blue">Editorial</span></li>
+                    </ol>
                 </li>
                 <li>
-                    <strong>Today</strong>
-                    <ul class="list title">
+                    <strong><span class="arrow-down">&dArr;</span>Today</strong>
+                    <ol class="list title">
                         <li>Recruiting blog post <span class="label blue">Editorial</span></li>
                         <li>Mobile app launch <span class="label purple">Editorial</span></li>
-                        <li>Interview John H. <span class="label lightgreen">Editorial</span></li>
+                        <li class="cross">Interview John H. <span class="label lightgreen">Editorial</span></li>
                         <li>Summit update to mobile storefronts <span class="label orange">Editorial</span></li>
-                    </ul>
+                    </ol>
                 </li>
                 <li>
-                    <strong>Upcoming</strong>
-                    <ul class="list title">
-                        <li>Schedule meeting with Alex</li>
+                    <strong><span class="arrow-down">&dArr;</span>Upcoming</strong>
+                    <ol class="list title">
+                        <li class="cross">Schedule meeting with Alex</li>
                         <li>Hompage refresh <span class="label pink">Editorial</span></li>
                         <li>Onboard new Sales team members <span class="label green">Editorial</span></li>
                         <li>Review editorial calendar <span class="label blue">Editorial</span></li>
-                    </ul>
+                    </ol>
                 </li>
             </ul>
         </section>

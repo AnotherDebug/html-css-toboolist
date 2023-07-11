@@ -82,6 +82,7 @@ hr {
     font-size: 8px;
     border-radius: 7px;
     padding: 4px 8px;
+    color: white;
 }
 
 .label.blue {
@@ -101,4 +102,22 @@ hr {
 }
 .label.green {
     background-color: #B0C925;
+}
+
+/* arrow list */
+.arrow-down{
+	padding-right:7px;
+	color: black;
+}
+/* Check list */
+section ul li ol li:before{
+	content: "\2713";
+	padding-right:7px;
+	color: #57BCA5;
+}
+/* cross list */
+section ul li ol li.cross:before{
+	content: "\2717";
+	padding-right:7px;
+	color: red;
 }
