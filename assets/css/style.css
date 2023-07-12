@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #F6F8F9;
@@ -15,6 +17,21 @@ body {
     margin: auto;
     margin-top: 30px;
     border-radius: 5px;
+}
+
+.label {
+    font-size: 8px;
+    border-radius: 7px;
+    padding: 4px 8px;
+    color: white;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid #57BCA5;
 }
 
 
@@ -56,6 +73,7 @@ section div input {
 #button-blue {
     background-color: #45ABE9;
     color: white;
+    border-color: #45ABE9;
 }
 
 #button-white {
@@ -68,56 +86,51 @@ hr {
 
 /* List */
 
-.title {
-    font-weight: 400;
-    line-height: 30px;
-}
 
 .list {
     list-style: none;
-    padding: 15px 35px;
+    margin-left: 50px;
 }
 
-.label {
-    font-size: 8px;
-    border-radius: 7px;
-    padding: 4px 8px;
-    color: white;
-}
 
-.label.blue {
+
+.label.editorial {
     background-color: #45ABE9;
 }
-.label.purple {
+.label.goals {
     background-color: #9C72E4;
 }
-.label.lightgreen {
+.label.recruiting {
     background-color: #64C0A9;
 }
-.label.orange {
+.label.mobile {
     background-color: #F29E33;
 }
-.label.pink {
+.label.website {
     background-color: #D763A1;
 }
-.label.green {
+.label.seals {
     background-color: #B0C925;
 }
 
 /* arrow list */
-.arrow-down{
-	padding-right:7px;
+.arrow-down::before{
 	color: black;
+    content: "\25BE";
 }
 /* Check list */
-section ul li ol li:before{
+.checked:before{
+    padding: 4px;
 	content: "\2713";
-	padding-right:7px;
 	color: #57BCA5;
 }
-/* cross list */
-section ul li ol li.cross:before{
+/* Uncheck list */
+.unchecked:before{
 	content: "\2717";
 	padding-right:7px;
 	color: red;
+}
+
+h3 {
+    margin-bottom: 5px;
 }
